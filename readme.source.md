@@ -174,9 +174,23 @@
     <ellipse id="st-o4" cx="262" cy="40"  rx="150" ry="100" fill="url(#sg4)" />
   </svg>
   <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', marginBottom: 20, zIndex: 10 }}>stack</span>
-  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center', zIndex: 10, maxWidth: 680 }}>
-    {['React', 'TypeScript', 'JavaScript', 'Node.js', 'NestJS', 'Python', 'PostgreSQL', 'MySQL', 'Docker', 'Git'].map((tech, i) => (
-      <span key={i} style={{ padding: '7px 18px', background: 'rgba(255,255,255,0.04)', color: 'rgba(255,255,255,0.65)', borderRadius: 100, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)', letterSpacing: 0.5 }}>{tech}</span>
+  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center', zIndex: 10, maxWidth: 1000 }}>
+    {[
+      { name: 'React', slug: 'react', color: '61DAFB' },
+      { name: 'TypeScript', slug: 'typescript', color: '3178C6' },
+      { name: 'JavaScript', slug: 'javascript', color: 'F7DF1E' },
+      { name: 'Node.js', slug: 'nodedotjs', color: '339933' },
+      { name: 'NestJS', slug: 'nestjs', color: 'E0234E' },
+      { name: 'Python', slug: 'python', color: '3776AB' },
+      { name: 'PostgreSQL', slug: 'postgresql', color: '4169E1' },
+      { name: 'MySQL', slug: 'mysql', color: '4479A1' },
+      { name: 'Docker', slug: 'docker', color: '2496ED' },
+      { name: 'Git', slug: 'git', color: 'F05032' },
+    ].map((tech, i) => (
+      <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '7px 18px', background: 'rgba(255,255,255,0.04)', color: 'rgba(255,255,255,0.65)', borderRadius: 100, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)', letterSpacing: 0.5 }}>
+        <img src={`https://cdn.simpleicons.org/${tech.slug}/${tech.color}`} width={14} height={14} />
+        <span>{tech.name}</span>
+      </div>
     ))}
   </div>
 </div>
@@ -200,6 +214,10 @@
 />
 ```
 
+```aura width=14 height=44 inline align=center
+<div style={{ display: 'flex', width: '100%', height: '100%' }} />
+```
+
 ```aura width=138 height=44 link="https://linkedin.com/in/guilherme-sales-" inline align=center
 <SocialMediaButton
   icon="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/linkedin.svg"
@@ -216,6 +234,10 @@
     { offset: '100%', color: '#555555' },
   ]}
 />
+```
+
+```aura width=14 height=44 inline align=center
+<div style={{ display: 'flex', width: '100%', height: '100%' }} />
 ```
 
 ```aura width=110 height=44 link="mailto:guilherme06sales@gmail.com" inline align=center
