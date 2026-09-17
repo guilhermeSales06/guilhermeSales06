@@ -39,19 +39,12 @@ Desenvolvedor Web
 ![Trello](https://img.shields.io/badge/Trello-0052CC?style=flat&logo=trello&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=guilhermeSales06&show_icons=true&theme=default&hide_title=false" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermeSales06&layout=compact&theme=default" alt="Top Languages" height="165" />
-
 ## 📫 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-sales-)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:guilherme06sales@gmail.com)
 
 ---
-
-## 🕹️ Contribution Graph
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guilhermeSales06/guilhermeSales06/output/pacman-contribution-graph-dark.svg">
