@@ -188,7 +188,9 @@
       { name: 'Git', slug: 'git', color: 'F05032' },
     ].map((tech, i) => (
       <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '7px 18px', background: 'rgba(255,255,255,0.04)', color: 'rgba(255,255,255,0.65)', borderRadius: 100, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)', letterSpacing: 0.5 }}>
-        <img src={`https://cdn.simpleicons.org/${tech.slug}/${tech.color}`} width={14} height={14} />
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 16, height: 16, background: `#${tech.color}`, borderRadius: '50%', padding: 3 }}>
+          <img src={`https://cdn.jsdelivr.net/npm/simple-icons@13/icons/${tech.slug}.svg`} width={10} height={10} />
+        </div>
         <span>{tech.name}</span>
       </div>
     ))}
@@ -198,7 +200,7 @@
 
 ```aura width=120 height=44 link="https://github.com/guilhermeSales06" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/github/ffffff"
+  icon="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/github.svg"
   text="GitHub"
   backgroundColor="#141414"
   width={120}
@@ -242,7 +244,7 @@
 
 ```aura width=110 height=44 link="mailto:guilherme06sales@gmail.com" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/EA4335"
+  icon="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/gmail.svg"
   text="Email"
   backgroundColor="#2b0a0a"
   width={110}
