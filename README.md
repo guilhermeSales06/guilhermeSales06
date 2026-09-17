@@ -24,10 +24,7 @@ Desenvolvedor Web
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=guilhermeSales06&show_icons=true&hide_border=true&theme=dark&bg_color=0d1117" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermeSales06&layout=compact&hide_border=true&theme=dark&bg_color=0d1117" height="165" alt="Top Languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=guilhermeSales06&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&hide_border=true&radius=0" width="97%" alt="Contribution activity" />
+<img src="https://streak-stats.demolab.com/?user=guilhermeSales06&theme=dark&hide_border=true&background=0D1117" alt="GitHub Streak Stats" />
 
 <br><br>
 
