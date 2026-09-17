@@ -1,4 +1,4 @@
-```aura width=800 height=360
+```aura width=1166 height=400
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
     @keyframes orb-a { 0%, 100% { transform: translate(0, 0); opacity: 0.6; } 50% { transform: translate(28px, -22px); opacity: 0.9; } }
@@ -20,7 +20,7 @@
     #hero-dot { animation: dot-spin 20s linear infinite; }
   `}</style>
 
-  <svg width="800" height="360" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="100%" height="400" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="hg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(36,150,237,0.55)" />
@@ -43,18 +43,18 @@
         <stop offset="100%" stopColor="rgba(88,166,255,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="hero-o1" cx="110" cy="310" rx="260" ry="200" fill="url(#hg1)" />
-    <ellipse id="hero-o2" cx="710" cy="70" rx="230" ry="190" fill="url(#hg2)" />
-    <ellipse id="hero-o3" cx="620" cy="330" rx="200" ry="160" fill="url(#hg3)" />
-    <ellipse id="hero-o4" cx="200" cy="55" rx="190" ry="150" fill="url(#hg4)" />
-    <ellipse id="hero-o5" cx="400" cy="340" rx="170" ry="130" fill="url(#hg5)" />
-    <circle id="hr1" cx="400" cy="178" r="52"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr2" cx="400" cy="178" r="92"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr3" cx="400" cy="178" r="138" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr4" cx="400" cy="178" r="192" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr5" cx="400" cy="178" r="256" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <ellipse id="hero-o1" cx="160" cy="344" rx="300" ry="220" fill="url(#hg1)" />
+    <ellipse id="hero-o2" cx="1035" cy="87" rx="270" ry="210" fill="url(#hg2)" />
+    <ellipse id="hero-o3" cx="904" cy="408" rx="230" ry="180" fill="url(#hg3)" />
+    <ellipse id="hero-o4" cx="291" cy="61" rx="220" ry="170" fill="url(#hg4)" />
+    <ellipse id="hero-o5" cx="583" cy="378" rx="200" ry="150" fill="url(#hg5)" />
+    <circle id="hr1" cx="583" cy="198" r="60"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr2" cx="583" cy="198" r="105" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr3" cx="583" cy="198" r="158" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr4" cx="583" cy="198" r="220" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr5" cx="583" cy="198" r="294" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
     <g id="hero-dot">
-      <circle cx="400" cy="126" r="2.5" fill="rgba(255,255,255,0.5)" />
+      <circle cx="583" cy="140" r="2.5" fill="rgba(255,255,255,0.5)" />
     </g>
   </svg>
 
@@ -70,7 +70,7 @@
 </div>
 ```
 
-```aura width=800 height=220
+```aura width=1166 height=220
 <div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
     @keyframes about-orb-l { 0%, 100% { transform: translate(0,0); opacity: 0.65; } 50% { transform: translate(20px,-14px); opacity: 0.9; } }
@@ -112,8 +112,8 @@
     </svg>
     <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 28px', zIndex: 10 }}>
       <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: 3, textTransform: 'uppercase', marginBottom: 10 }}>about</span>
-      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>Construindo produtos</span>
-      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>do back ao front.</span>
+      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>De estagiário a</span>
+      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>dev full-stack júnior.</span>
       <div style={{ display: 'flex', alignItems: 'center', marginTop: 14 }}>
         <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontFamily: 'monospace' }}>{'> buscando novas oportunidades'}</span>
         <span id="ab-cursor" style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', fontFamily: 'monospace', marginLeft: 1 }}>_</span>
@@ -130,7 +130,7 @@
     </div>
     <div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.035)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-        <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>🛠️</span>
+        <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>📜</span>
         <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4, textAlign: 'center' }}>Téc. Dev. de Sistemas · ETEC</span>
       </div>
     </div>
@@ -138,7 +138,7 @@
 </div>
 ```
 
-```aura width=800 height=200
+```aura width=1166 height=200
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
     @keyframes stack-orb { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(18px,-14px); opacity: 0.7; } }
@@ -149,7 +149,7 @@
     #st-o3 { animation: stack-orb 9s ease-in-out infinite 2.5s; }
     #st-o4 { animation: stack-orb-b 11s ease-in-out infinite 0.5s; }
   `}</style>
-  <svg width="800" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="100%" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="sg1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(36,150,237,0.4)" />
@@ -168,10 +168,10 @@
         <stop offset="100%" stopColor="rgba(111,211,255,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="st-o1" cx="80"  cy="160" rx="160" ry="120" fill="url(#sg1)" />
-    <ellipse id="st-o2" cx="730" cy="50"  rx="150" ry="120" fill="url(#sg2)" />
-    <ellipse id="st-o3" cx="640" cy="170" rx="140" ry="110" fill="url(#sg3)" />
-    <ellipse id="st-o4" cx="180" cy="40"  rx="130" ry="100" fill="url(#sg4)" />
+    <ellipse id="st-o1" cx="117"  cy="160" rx="180" ry="120" fill="url(#sg1)" />
+    <ellipse id="st-o2" cx="1064" cy="50"  rx="170" ry="120" fill="url(#sg2)" />
+    <ellipse id="st-o3" cx="933" cy="170" rx="160" ry="110" fill="url(#sg3)" />
+    <ellipse id="st-o4" cx="262" cy="40"  rx="150" ry="100" fill="url(#sg4)" />
   </svg>
   <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', marginBottom: 20, zIndex: 10 }}>stack</span>
   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center', zIndex: 10, maxWidth: 680 }}>
