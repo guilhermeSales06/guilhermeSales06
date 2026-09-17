@@ -7,7 +7,7 @@ Desenvolvedor Web
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-sales-)
 [![Email](https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=white)](mailto:guilherme06sales@gmail.com)
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:2496ED,100:58A6FF&height=3&section=footer" width="100%">
 
 ![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
@@ -26,7 +26,7 @@ Desenvolvedor Web
 
 <img src="https://streak-stats.demolab.com/?user=guilhermeSales06&theme=dark&hide_border=true&background=0D1117" alt="GitHub Streak Stats" />
 
-<br><br>
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:2496ED,100:58A6FF&height=3&section=footer" width="100%">
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guilhermeSales06/guilhermeSales06/output/pacman-contribution-graph-dark.svg">
