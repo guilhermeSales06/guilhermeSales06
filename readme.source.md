@@ -188,7 +188,7 @@
 
 ```aura width=120 height=44 link="https://github.com/guilhermeSales06" inline align=center
 <SocialMediaButton
-  icon="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/github.svg"
+  icon="https://raw.githubusercontent.com/guilhermeSales06/guilhermeSales06/main/assets/icons/github.svg"
   text="GitHub"
   backgroundColor="#141414"
   width={120}
@@ -210,7 +210,7 @@
 
 ```aura width=138 height=44 link="https://linkedin.com/in/guilherme-sales-" inline align=center
 <SocialMediaButton
-  icon="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/linkedin.svg"
+  icon="https://raw.githubusercontent.com/guilhermeSales06/guilhermeSales06/main/assets/icons/linkedin.svg"
   text="LinkedIn"
   backgroundColor="#0a1c2e"
   width={138}
@@ -232,7 +232,7 @@
 
 ```aura width=110 height=44 link="mailto:guilherme06sales@gmail.com" inline align=center
 <SocialMediaButton
-  icon="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/gmail.svg"
+  icon="https://raw.githubusercontent.com/guilhermeSales06/guilhermeSales06/main/assets/icons/gmail.svg"
   text="Email"
   backgroundColor="#2b0a0a"
   width={110}
