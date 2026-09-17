@@ -4,19 +4,12 @@
     @keyframes orb-a { 0%, 100% { transform: translate(0, 0); opacity: 0.6; } 50% { transform: translate(28px, -22px); opacity: 0.9; } }
     @keyframes orb-b { 0%, 100% { transform: translate(0, 0); opacity: 0.5; } 50% { transform: translate(-22px, 18px); opacity: 0.75; } }
     @keyframes orb-c { 0%, 100% { transform: translate(0, 0); opacity: 0.35; } 50% { transform: translate(16px, -28px); opacity: 0.6; } }
-    @keyframes ring-blink { 0%, 100% { opacity: 0.06; } 50% { opacity: 0.18; } }
-    @keyframes ring-blink-b { 0%, 100% { opacity: 0.04; } 50% { opacity: 0.12; } }
     @keyframes dot-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     #hero-o1 { animation: orb-a 9s ease-in-out infinite; }
     #hero-o2 { animation: orb-b 11s ease-in-out infinite 0.8s; }
     #hero-o3 { animation: orb-a 8s ease-in-out infinite 2s; }
     #hero-o4 { animation: orb-b 13s ease-in-out infinite 0.4s; }
     #hero-o5 { animation: orb-c 7s ease-in-out infinite 1.2s; }
-    #hr1 { animation: ring-blink 8s ease-in-out infinite; }
-    #hr2 { animation: ring-blink 8s ease-in-out infinite 1.4s; }
-    #hr3 { animation: ring-blink-b 8s ease-in-out infinite 2.8s; }
-    #hr4 { animation: ring-blink-b 8s ease-in-out infinite 4.2s; }
-    #hr5 { animation: ring-blink-b 10s ease-in-out infinite 5.6s; }
     #hero-dot { animation: dot-spin 20s linear infinite; }
   `}</style>
 
@@ -48,11 +41,11 @@
     <ellipse id="hero-o3" cx="904" cy="408" rx="230" ry="180" fill="url(#hg3)" />
     <ellipse id="hero-o4" cx="291" cy="61" rx="220" ry="170" fill="url(#hg4)" />
     <ellipse id="hero-o5" cx="583" cy="378" rx="200" ry="150" fill="url(#hg5)" />
-    <circle id="hr1" cx="583" cy="198" r="60"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr2" cx="583" cy="198" r="105" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr3" cx="583" cy="198" r="158" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr4" cx="583" cy="198" r="220" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    <circle id="hr5" cx="583" cy="198" r="294" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+    <circle id="hr1" cx="583" cy="198" r="60"  fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.7" />
+    <circle id="hr2" cx="583" cy="198" r="105" fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.7" />
+    <circle id="hr3" cx="583" cy="198" r="158" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.7" />
+    <circle id="hr4" cx="583" cy="198" r="220" fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.7" />
+    <circle id="hr5" cx="583" cy="198" r="294" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.7" />
     <g id="hero-dot">
       <circle cx="583" cy="140" r="2.5" fill="rgba(255,255,255,0.5)" />
     </g>
@@ -75,15 +68,10 @@
   <style>{`
     @keyframes about-orb-l { 0%, 100% { transform: translate(0,0); opacity: 0.65; } 50% { transform: translate(20px,-14px); opacity: 0.9; } }
     @keyframes about-orb-r { 0%, 100% { transform: translate(0,0); opacity: 0.55; } 50% { transform: translate(-16px,12px); opacity: 0.8; } }
-    @keyframes about-ring { 0%, 100% { opacity: 0.07; } 50% { opacity: 0.2; } }
-    @keyframes about-ring-b { 0%, 100% { opacity: 0.04; } 50% { opacity: 0.13; } }
     @keyframes cursor-blink { 0%, 100% { opacity: 1; } 49% { opacity: 1; } 50% { opacity: 0; } 99% { opacity: 0; } }
     #ab-o1 { animation: about-orb-l 8s ease-in-out infinite; }
     #ab-o2 { animation: about-orb-r 10s ease-in-out infinite 1s; }
     #ab-o3 { animation: about-orb-l 7s ease-in-out infinite 2s; }
-    #ab-r1 { animation: about-ring 7s ease-in-out infinite; }
-    #ab-r2 { animation: about-ring 7s ease-in-out infinite 2s; }
-    #ab-r3 { animation: about-ring-b 7s ease-in-out infinite 3.5s; }
     #ab-cursor { animation: cursor-blink 1.1s step-end infinite; }
   `}</style>
 
@@ -106,9 +94,9 @@
       <ellipse id="ab-o1" cx="40"  cy="180" rx="130" ry="110" fill="url(#ab-gl)" />
       <ellipse id="ab-o2" cx="320" cy="40"  rx="120" ry="100" fill="url(#ab-gr)" />
       <ellipse id="ab-o3" cx="260" cy="200" rx="100" ry="90"  fill="url(#ab-gb)" />
-      <circle id="ab-r1" cx="165" cy="110" r="38"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-      <circle id="ab-r2" cx="165" cy="110" r="65"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-      <circle id="ab-r3" cx="165" cy="110" r="100" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
+      <circle id="ab-r1" cx="165" cy="110" r="38"  fill="none" stroke="rgba(255,255,255,0.1)" strokeWidth="0.7" />
+      <circle id="ab-r2" cx="165" cy="110" r="65"  fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.7" />
+      <circle id="ab-r3" cx="165" cy="110" r="100" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.7" />
     </svg>
     <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 28px', zIndex: 10 }}>
       <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: 3, textTransform: 'uppercase', marginBottom: 10 }}>about</span>
