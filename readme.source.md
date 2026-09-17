@@ -162,7 +162,7 @@
     <ellipse id="st-o4" cx="262" cy="40"  rx="150" ry="100" fill="url(#sg4)" />
   </svg>
   <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', marginBottom: 20, zIndex: 10 }}>stack</span>
-  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, justifyContent: 'center', zIndex: 10, maxWidth: 1000 }}>
+  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 14, justifyContent: 'center', zIndex: 10, maxWidth: 1080 }}>
     {[
       { name: 'React', slug: 'react', color: '61DAFB' },
       { name: 'TypeScript', slug: 'typescript', color: '3178C6' },
@@ -175,9 +175,9 @@
       { name: 'Docker', slug: 'docker', color: '2496ED' },
       { name: 'Git', slug: 'git', color: 'F05032' },
     ].map((tech, i) => (
-      <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '7px 18px', background: 'rgba(255,255,255,0.04)', color: 'rgba(255,255,255,0.65)', borderRadius: 100, fontSize: 12, border: '1px solid rgba(255,255,255,0.08)', letterSpacing: 0.5 }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 16, height: 16, background: `#${tech.color}`, borderRadius: '50%', padding: 3 }}>
-          <img src={`https://cdn.jsdelivr.net/npm/simple-icons@13/icons/${tech.slug}.svg`} width={10} height={10} />
+      <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '11px 24px', background: 'rgba(255,255,255,0.04)', color: 'rgba(255,255,255,0.75)', borderRadius: 100, fontSize: 16, border: '1px solid rgba(255,255,255,0.08)', letterSpacing: 0.5 }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 26, height: 26, background: `#${tech.color}`, borderRadius: '50%', padding: 5 }}>
+          <img src={`https://cdn.jsdelivr.net/npm/simple-icons@13/icons/${tech.slug}.svg`} width={16} height={16} />
         </div>
         <span>{tech.name}</span>
       </div>
