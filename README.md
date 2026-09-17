@@ -2,26 +2,6 @@
 
 Desenvolvedor full-stack, atualmente em busca de novas oportunidades na área de tecnologia.
 
-## 👋 Sobre mim
-
-- 💼 Trajetória iniciada como estagiário e promovido a desenvolvedor júnior na **GBM Tech & Control** (Jul/2024 – Set/2026)
-- 🚛 Atuação em sistemas logísticos (ferroviário, rodoviário, hidroviário e marítimo), incluindo dashboards, tabelas de dados, gráficos analíticos e regras de negócio
-- 🎨 Participação na refatoração de front-end, migrando para uma biblioteca de design system interna
-- 🎓 Cursando Sistemas de Informação na Universidade Católica de Santos (5º semestre)
-- 🔍 Atualmente em busca de novas oportunidades na área de tecnologia
-
-## 🚀 Projetos em destaque
-
-### Nutri Viva
-Sistema de gestão de clientes e parceiros para negócio de alimentação saudável (marmita fit), próximo da produção. Projeto freelancer desenvolvido integralmente por mim.
-- **Back-end:** Fastify, Prisma, PostgreSQL
-- **Front-end:** React, TypeScript, TanStack Query/Router, Tailwind CSS
-- **Deploy:** Railway
-
-### Sistema de Agendamento de Laboratórios (PCE/LabManager)
-Trabalho de Conclusão de Curso, em andamento. Sistema de reservas de laboratórios para ambiente universitário, com quatro perfis de usuário (Aluno, Professor, Coordenador, Administrador). Inclui modelagem de dados (ER), mapeamento de processos (BPMN AS-IS/TO-BE) e protótipo navegável.
-- **Stack:** Next.js, Node.js, PostgreSQL
-
 ## 🛠️ Tecnologias
 
 **Linguagens e frameworks**
